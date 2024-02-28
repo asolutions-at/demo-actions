@@ -38,6 +38,7 @@ jobs:
   echo-job:
     name: echo
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: echo
         run: echo "Hello world"
