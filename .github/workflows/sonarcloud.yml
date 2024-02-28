@@ -45,4 +45,4 @@ jobs:
   call-workflow-2-in-local-repo:
     name: call echo workflow
     uses: ./.github/workflows/echo.yaml
-    needs: build
+    needs: [build, echo-job]
