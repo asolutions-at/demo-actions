@@ -41,3 +41,5 @@ jobs:
     steps:
       - name: echo
         run: echo "Hello world"
+  call-workflow-2-in-local-repo:
+    uses: ./.github/workflows/echo.yaml
