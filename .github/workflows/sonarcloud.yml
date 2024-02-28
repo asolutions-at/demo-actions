@@ -35,3 +35,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=asolutions-at_demo-actions
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: echo "Hello world"
