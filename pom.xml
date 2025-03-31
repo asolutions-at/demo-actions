@@ -40,7 +40,7 @@
                     <goals>
                         <goal>prepare-agent</goal>
                     </goals>
-                </execution>
+                </execution> -->
                 <!-- attached to Maven test phase -->
   <!--              <execution>
                     <id>report</id>
